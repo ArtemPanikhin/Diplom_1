@@ -24,3 +24,7 @@
 **Запуск автотестов и создание HTML-отчета о покрытии**
 
 >  `$ pytest --cov=praktikum --cov-report=html`
+
+**Посмотреть HTML-отчета о покрытии**
+
+>  `$ start htmlcov/index.html`

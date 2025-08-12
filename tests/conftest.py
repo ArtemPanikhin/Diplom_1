@@ -5,14 +5,6 @@ from praktikum.burger import Burger
 
 
 @pytest.fixture
-def database():
-    return Database()
-
-@pytest.fixture
-def burger():
-    return Burger()
-
-@pytest.fixture
 def bun():
     bun_mock = MagicMock()
     bun_mock.get_name.return_value = "Fluorescent bun R2-D3"
